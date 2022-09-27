@@ -12,4 +12,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
   },
+  rules: {
+    "no-debugger": "warn", // 禁止出现 debugger
+  },
 };
